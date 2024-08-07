@@ -9,4 +9,4 @@ summa = a + b
 raznost = a - b
 proizvedenie = a * b
 
-print("Summa =",summa,", Raznost =",raznost,", Proizvedenie =",proizvedenie,".")
+print("Summa =", summa, ", Raznost =", raznost, ", Proizvedenie =", proizvedenie, ".")

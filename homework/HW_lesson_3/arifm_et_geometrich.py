@@ -7,7 +7,7 @@
 
 a = 10
 b = 20
-srednee_arifmeticheskoe = (a+b) / 2
+srednee_arifmeticheskoe = (a + b) / 2
 srednee_geometricheskoe = (a * b) ** 0.5
 
-print("Srednee arifmeticheskoe =",srednee_arifmeticheskoe,"Srednee Geometricheskoe =",srednee_geometricheskoe,".")
+print("Srednee arifmeticheskoe =", srednee_arifmeticheskoe, "Srednee Geometricheskoe =", srednee_geometricheskoe, ".")
