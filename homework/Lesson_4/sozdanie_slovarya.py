@@ -44,7 +44,7 @@ print(tania_set)
 tania_set.remove(10)
 print(tania_set)
 
-tania_dict = {'i am a tuple':"(5, 10, 15, 20, 25)"}
+tania_dict = {'i am a tuple' : "(5, 10, 15, 20, 25)"}
 print(tania_dict)
 
 my_dict = {"tuple": tania_tuple, "list": tania_list, "dict": tania_dict, "set": tania_set}
