@@ -41,4 +41,4 @@ subjects = ['math', 'biology', 'geography']
 stud_1, stud_2, stud_3 = students
 sub_1, sub_2, sub_3 = subjects
 
-print(stud_1, ",", stud_2, ",", stud_3, "study these subjects:", sub_1, ",", sub_2, ",", sub_3, ".")
+print(stud_1, ",", stud_2, ",", stud_3, "study these subjects:", sub_1, ",", sub_2, ",", sub_3)
