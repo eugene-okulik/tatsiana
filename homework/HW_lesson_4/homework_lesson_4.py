@@ -30,7 +30,7 @@
 
 tania_tuple = 1, 2, 3, 4, 5
 tania_list = ["tanya", "vanya", "fedya", "petya", "manya"]
-tania_dict = {"name" : "Tatsiana", "last_name": "Shamshurina", "language": "python", "work": "QA", "love": "testing"}
+tania_dict = {"name": "Tatsiana", "last_name": "Shamshurina", "language": "python", "work": "QA", "love": "testing"}
 tania_set = {2, 35, 88, 125, 158}
 
 my_dict = {"tuple": tania_tuple, "list": tania_list, "dict": tania_dict, "set": tania_set}
