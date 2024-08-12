@@ -30,7 +30,7 @@
 # Задание 1
 person = ['John', 'Doe', 'New York', '+1372829383739', 'US']
 
-#person_raspakovannyi variant 1
+# person_raspakovannyi variant 1
 # name = person[0]
 # last_name = person[1]
 # city = person[2]
@@ -40,7 +40,7 @@ person = ['John', 'Doe', 'New York', '+1372829383739', 'US']
 
 # #person_raspakovannyi variant 2
 name, last_name, city, phone, country = person
-print ("name = ", name, ", last_name = ", last_name, ", city = ", city, ", phone = ", phone, ", country = ", country)
+print("name = ", name, ", last_name = ", last_name, ", city = ", city, ", phone = ", phone, ", country = ", country)
 
 # Задание 2
 list_dannye = [
@@ -66,4 +66,5 @@ students = ['Ivanov', 'Petrov', 'Sidorov']
 subjects = ['math', 'biology', 'geography']
 student_1, student_2, student_3 = students
 subject_1, subject_2, subject_3 = subjects
-print("Students " + student_1 + "," + student_2 + "," + student_3 + " study these subjects: " + subject_1 + "," + subject_2 + "," + subject_3)
+print("Students " + student_1 + "," + student_2 + "," + student_3 + " study these subjects: " + subject_1 + ","
+      + subject_2 + "," + subject_3)
