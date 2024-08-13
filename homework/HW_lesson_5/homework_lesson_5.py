@@ -60,20 +60,20 @@ for line in list_dannye:
         ind = line.index(":") + 2
         num_str = line[ind::]
         # Proverka type
-        #print(type(num_str))
+        # print(type(num_str))
         # Конвертируем в int
         num = int(num_str)
         # добавляем числа в наш новый список
         numbers_all.append(num)
 print(numbers_all)
 
-numbers_changed =[]
+numbers_changed = []
 
 for num in numbers_all:
     num = num + 10
     numbers_changed.append(num)
     print(num)
-#print(numbers_changed)
+# print(numbers_changed)
 
 # Задание 3
 
