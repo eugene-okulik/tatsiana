@@ -44,22 +44,36 @@ name, last_name, city, phone, country = person
 print("name = ", name, ", last_name = ", last_name, ", city = ", city, ", phone = ", phone, ", country = ", country)
 
 # Задание 2
+# Женя, кроме for ничего в голову не идет ((
+
 list_dannye = [
     "результат операции: 42",
     "результат операции: 514",
     "результат работы программы: 9"
 ]
 
-element_1 = list_dannye[0]
-element_1_number = list_dannye[0][20:]
-element_2 = list_dannye[1]
-element_2_number = list_dannye[1][20:]
-element_3 = list_dannye[2]
-element_3_number = list_dannye[2][-1]
+numbers_all = []
 
-print(int(element_1_number) + 10)
-print(int(element_2_number) + 10)
-print(int(element_3_number) + 10)
+for line in list_dannye:
+    if ":" in line:
+        # Сначала находим индекс где начинается число в каждой строке - после : + пробел, и делаем срез оттуда
+        ind = line.index(":") + 2
+        num_str = line[ind::]
+        # Proverka type
+        #print(type(num_str))
+        # Конвертируем в int
+        num = int(num_str)
+        # добавляем числа в наш новый список
+        numbers_all.append(num)
+print(numbers_all)
+
+numbers_changed =[]
+
+for num in numbers_all:
+    num = num + 10
+    numbers_changed.append(num)
+    print(num)
+#print(numbers_changed)
 
 # Задание 3
 
